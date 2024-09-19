@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.header {
+    background-color: lightskyblue;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+ .noitemtext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
